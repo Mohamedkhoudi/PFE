@@ -1,0 +1,123 @@
+li{
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size: 200;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+li:hover{
+cursor: pointer;
+color: green;
+
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 128, 0, 0.596);
+    /* width: 100%; */
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin: 0 248px 0 248px;
+    border-radius: 10px;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/flat-farm-landscape_52683-9442.jpg?w=2000');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#navbar:hover {
+background-color: khaki;
+}
+h4{
+text-align: center;
+font-weight: 100;
+font-size: 70px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+margin-top: 10px;
+margin-bottom: 70px;
+}
+#pintro{
+    padding: 40px 20px 40px 40px;
+    margin: -60px 460px 50px 460px;
+    border-radius: 10px;
+    background-color:  rgba(0, 128, 0, 0.596) ;
+    color: black;
+    font-weight: 650;
+    font-size: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#pintro:hover{
+    background-color: khaki;   
+}
+.container {
+    /* position: absolute; */
+    top: 180px;
+    width: 80%;
+    margin-left: 120px;
+    box-shadow: 0 0 10px rgba(15, 5, 5, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+    /* background-color: khaki; */
+    backdrop-filter: blur(20px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+  }
+  
+  .btn-cont {
+    display: flex;
+  
+    justify-content: space-evenly;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 0.2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px rgba(43, 42, 42, 0.5);
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+    align-items: center;
+    transform: translate(70px, -50%);
+  }
+  .btn-cont button {
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    background: #dbdbdb;
+    color: #fff;
+    font-size: 27px;
+  }
+  
+  table {
+   
+    width: 80%;
+    /* background-color: white; */
+    border-radius: 10px;
+   
+  }
+  
+  td {
+    height: 100px;
+    text-align: center;
+  
+    width: 200px;
+    border-top: 1px solid #d2d8ccbd;
+  }
+  img {
+    width: 200px;
+    height: 170px;
+  }
+  .minus:hover {
+    background-color: #ef5350;
+    cursor: pointer;
+  }
+  .plus:hover {
+    background-color: #66bb6a;
+    cursor: pointer;
+  }
+
+  
